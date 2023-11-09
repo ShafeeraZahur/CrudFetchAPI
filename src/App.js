@@ -31,8 +31,8 @@ function App() {
     
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<ReadForm allUsers={allUsers}/>}/>
-      <Route path="/add" element={<CreateForm onNewUserAdded={handleNewUserAdded}/>}></Route> 
+      <Route path="/form" element={<ReadForm allUsers={allUsers}/>}/>
+      <Route path="/" element={<CreateForm onNewUserAdded={handleNewUserAdded}/>}></Route> 
     </Routes>
     </BrowserRouter>
     </>
