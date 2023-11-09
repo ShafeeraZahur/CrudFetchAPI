@@ -1,0 +1,86 @@
+.App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+table {
+    border: 2px solid forestgreen;
+    width: 800px;
+    height: 200px;
+}
+ 
+th {
+    border-bottom: 1px solid black;
+}
+ 
+td {
+    text-align: center;
+}
+
+.form-container {
+    max-width: 300px;
+    margin: 2% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    margin-right: 10%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .form-button{
+    width: 10%;
+    padding: 15px 32px;
+    margin-left: 33%;
+    background-color: green;
+  }
+
+  .top{
+    display: flex;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .edituser{
+    margin-top: 2%;
+  }
+
+  .editlabel{
+    margin-bottom: 15px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
